@@ -1,0 +1,5 @@
+exe(
+	libgen
+	OpenGL
+	GLUT
+)

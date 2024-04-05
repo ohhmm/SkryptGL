@@ -14,3 +14,5 @@ FetchContent_Declare(generator
 	GIT_TAG main
 	)
 FetchContent_MakeAvailable(generator)
+
+fold()
