@@ -1,6 +1,12 @@
-#include <GL/glut.h>
 
-#include <CL/cl_gl.h>
+#define GL_SILENCE_DEPRECATION
+#include <OpenGL/gl.h>
+#include <OpenGL/glu.h>
+#include <OpenGL/glext.h>
+#include <GLUT/glut.h>
+
+#include <omnn/rt/cl.h>
+#include <boost/compute/interop/opengl/gl.hpp>
 
 
 
